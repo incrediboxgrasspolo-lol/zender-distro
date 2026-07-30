@@ -19,7 +19,7 @@ jobs:
 
       - name: Install Dependencies
         working-directory: ./template
-        run: npm install
+        run: npm install --no-audit --no-fund
 
       - name: Build Project
         working-directory: ./template
